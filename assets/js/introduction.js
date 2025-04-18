@@ -1,6 +1,5 @@
 const tooltipList = document.querySelectorAll(".tooltip");
 const tooltipArr = Array.from(tooltipList);
-console.log(typeof tooltipArr, tooltipArr);
 
 if (tooltipArr.length != 0) {
   for (element of tooltipArr) {
@@ -42,6 +41,5 @@ function createTooltip(obj) {
   }
 
   tooltipSpan.appendChild(tooltipSpanContent);
-  console.log(tooltipSpan);
   return tooltipSpan;
 }
